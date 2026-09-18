@@ -1,6 +1,71 @@
+:root {
+  --accent-color: #2a6df4;
+  --text-color: #1f2328;
+  --muted-color: #57606a;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  color: var(--text-color);
+}
+
+.wrapper {
+  max-width: 800px;
+}
+
+.site-header {
+  border-top: 4px solid var(--accent-color);
+  border-bottom: 1px solid #e1e4e8;
+}
+
+.site-title, .site-title:visited {
+  font-weight: 700;
+  color: var(--text-color) !important;
+}
+
+a {
+  color: var(--accent-color);
+}
+
+a:hover {
+  color: #1a4fc0;
+}
+
+.post-content {
+  font-size: 1.08em;
+  line-height: 1.7;
+}
+
+.post-content h1, .post-content h2, .post-content h3 {
+  font-weight: 700;
+  margin-top: 1.6em;
+}
+
+.post-content img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 6px;
+  margin: 1em 0;
+}
+
+.post-content code {
+  background-color: #f6f8fa;
+  border-radius: 4px;
+}
+
+.post-content pre {
+  border-radius: 6px;
+  border: 1px solid #e1e4e8;
+}
+
+.post-meta {
+  color: var(--muted-color);
+}
+
 hr {
   margin-top: 30px;
   margin-bottom: 20px;
+  border-color: #e1e4e8;
 }
 
 /* Post navigation links */
