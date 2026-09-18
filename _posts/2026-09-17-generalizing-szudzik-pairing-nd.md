@@ -4,7 +4,7 @@ tags: Math
 
 # Generalizing the Szudzik Pairing Function to $d$ Dimensions
 
-<img src="dense_szudzik_3d.png" width="1600" height="384">
+<img src="/images/dense_szudzik_3d.png" width="1600" height="384">
 
 The image above visualizes `dense_3d(x, y, z)` as a color-mapped point cloud, sliced into shells by value. The rest of this post derives it.
 
@@ -55,7 +55,7 @@ Within shell $M$, each point belongs to exactly one **face type**, determined by
 
 The diagram below ($M = 3$ shell) illustrates these face types:
 
-<img src="shell_m3.png" width="700">
+<img src="/images/shell_m3.png" width="700">
 
 Solid arrows show enumeration within a face type; dashed arrows show the jump to the next face type. Within each face the two free coordinates are enumerated in row-major order (outer coordinate first).
 
